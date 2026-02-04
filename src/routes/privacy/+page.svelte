@@ -1,5 +1,6 @@
 <script>
 	import logo from '$lib/assets/logo.png';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -22,7 +23,7 @@
 		</p>
 		<div class="mt-6">
 			<a
-				href="/"
+				href="{base}/"
 				class="inline-flex items-center gap-2 text-cyan-400 transition-colors hover:text-cyan-300"
 			>
 				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

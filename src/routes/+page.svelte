@@ -4,6 +4,7 @@
 	import screenshot2 from '$lib/assets/1280_2@1x.png';
 	import screenshot3 from '$lib/assets/1280_3@1x.png';
 	import screenshot4 from '$lib/assets/1280_4@1x.png';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -131,7 +132,7 @@
 	<footer class="border-t border-slate-800 py-8 text-center text-slate-500">
 		<p class="mb-2">&copy; 2026 scrapmind.com All rights reserved.</p>
 		<nav class="flex justify-center gap-4">
-			<a href="/privacy" class="transition-colors hover:text-slate-300">Privacy Policy</a>
+			<a href="{base}/privacy" class="transition-colors hover:text-slate-300">Privacy Policy</a>
 		</nav>
 	</footer>
 </div>
